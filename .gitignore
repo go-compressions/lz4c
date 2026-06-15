@@ -1,2 +1,3 @@
 cover.out
-lz4c
+# The built binary at the repo root (anchored so it never shadows cmd/lz4c/).
+/lz4c
