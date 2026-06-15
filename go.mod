@@ -4,6 +4,7 @@ go 1.25.0
 
 require (
 	github.com/go-compressions/lz4 v0.0.0-20260615062121-89e4161913c9
+	github.com/pierrec/lz4/v4 v4.1.27
 	github.com/spf13/cobra v1.10.2
 )
 
