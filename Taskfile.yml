@@ -1,0 +1,38 @@
+version: '3'
+
+# This Taskfile runs the same way inside the monorepo (where a go.work at the
+# repo root resolves both lz4c AND its github.com/go-compressions/lz4
+# dependency locally) and inside the standalone github.com/go-compressions/lz4c
+# repo (where no go.work exists and Go fetches lz4 via the module proxy at the
+# version pinned in go.mod).
+
+tasks:
+  build:
+    desc: "Build the lz4c CLI"
+    cmds:
+      - go build ./...
+
+  test:
+    desc: "Run tests with race + own-package coverage for each sub-package"
+    cmds:
+      # `go test -coverpkg=./... ./...` only profiles the LAST sub-package's
+      # source in a single invocation, so we test each sub-package against its
+      # own source separately. Each line below should print
+      # `coverage: 100.0% of statements`.
+      - |
+        set -eu
+        for pkg in $(go list ./...); do
+          go test -race -count=1 -cover -coverpkg="$pkg" "$pkg"
+        done
+
+  lint:
+    desc: "Vet the module"
+    cmds:
+      - go vet ./...
+
+  ci:
+    desc: "Run lint + build + test (used by the GitHub Actions workflow)"
+    cmds:
+      - task: lint
+      - task: build
+      - task: test
