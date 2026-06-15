@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/go-compressions/brand/main/social/go-compressions.png" alt="go-compressions/lz4c" width="720"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/go-compressions/brand/main/social/go-compressions-lz4c.png" alt="go-compressions/lz4c" width="720"></p>
 
 # lz4c
 
