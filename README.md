@@ -65,6 +65,18 @@ wire-compatible with [`pierrec/lz4`](https://github.com/pierrec/lz4): strip
 the 12-byte header and any LZ4 block decoder can consume the remainder (this
 is exercised by `lz4io`'s `TestBlockIsPierrecCompatible`).
 
+## Architecture validation
+
+The underlying [`lz4`](https://github.com/go-compressions/lz4) library (and its
+`matchlen` SIMD match-extension kernel) is build+test validated across
+architectures, all of which lz4c inherits. **ppc64le is natively measured on
+real POWER10** (GCC Compile Farm, VSX, Go 1.26.4, June 2026), and the library is
+build+test validated bit-exact on **ppc64 (big-endian)** on real POWER9 silicon
+(generic/scalar fallback). s390x stays qemu-validated for correctness only;
+native s390x throughput is pending (no GitHub-hosted IBM Z runner). In short:
+**six SIMD targets, validated on seven architectures** — all at the library
+level.
+
 ## Build
 
 ```sh
