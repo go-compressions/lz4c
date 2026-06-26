@@ -1,8 +1,8 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
-github.com/go-compressions/lz4 v0.0.0-20260615062121-89e4161913c9 h1:Mr88zN+bsdmwHBBqRT1k1tY3ZfiaNNft21ILJQjoQMg=
-github.com/go-compressions/lz4 v0.0.0-20260615062121-89e4161913c9/go.mod h1:LyR4aRkLg4ny/vh2Zy7Qc1Bd6hlMMwvIGDsiHy6Pfbg=
-github.com/go-simd/matchlen v0.3.0 h1:cOLOrcDJjQHzkbQAP2XYZzUaC+qo6heua8xJA1HyDRU=
-github.com/go-simd/matchlen v0.3.0/go.mod h1:h95M7Ih4MZqO1+Dir0S+joy170I4NrPYaqQFInebWzo=
+github.com/go-compressions/lz4 v0.0.0-20260626183246-9b103f9c631b h1:fH8LvWb1XyMSGNfR8NH2UQMnQXKUdgt+diGc4+9r/Us=
+github.com/go-compressions/lz4 v0.0.0-20260626183246-9b103f9c631b/go.mod h1:ix+zOThuKPTkLKMXNPWcUIkC5Pz4BnmGCmozS6p42Rw=
+github.com/go-simd/matchlen v0.3.1 h1:HKyOis1LaXPGEr8esAj8wkOhrjK7W24P7RlMYbTHyk4=
+github.com/go-simd/matchlen v0.3.1/go.mod h1:h95M7Ih4MZqO1+Dir0S+joy170I4NrPYaqQFInebWzo=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
 github.com/pierrec/lz4/v4 v4.1.27 h1:+PhzhWDrjRj89TH2sw43nE3+4+W8lSxIuQadEHZyjUk=
