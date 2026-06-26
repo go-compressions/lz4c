@@ -70,9 +70,9 @@ is exercised by `lz4io`'s `TestBlockIsPierrecCompatible`).
 The underlying [`lz4`](https://github.com/go-compressions/lz4) library (and its
 `matchlen` SIMD match-extension kernel) is build+test validated across
 architectures, all of which lz4c inherits. **ppc64le is natively measured on
-real POWER10** (GCC Compile Farm, VSX, Go 1.26.4, June 2026), **riscv64 is
+real POWER9** (GCC Compile Farm, VSX, Go 1.26.4, 2026-06-26), **riscv64 is
 natively measured on a real SpacemiT X60** (RVV 1.0, a low-power in-order core —
-the only widely-available RVV silicon; GCC Compile Farm, Go 1.26.4, June 2026),
+the only widely-available RVV silicon; GCC Compile Farm, Go 1.26.4, 2026-06-26),
 and the library is
 build+test validated bit-exact on **ppc64 (big-endian)** on real POWER9 silicon
 (generic/scalar fallback). s390x stays qemu-validated for correctness only;
