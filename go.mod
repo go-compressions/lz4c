@@ -3,7 +3,7 @@ module github.com/go-compressions/lz4c
 go 1.26.4
 
 require (
-	github.com/go-compressions/lz4 v0.0.0-20260626183246-9b103f9c631b
+	github.com/go-compressions/lz4 v0.1.1
 	github.com/pierrec/lz4/v4 v4.1.29
 	github.com/spf13/cobra v1.10.2
 )
