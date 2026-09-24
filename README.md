@@ -5,7 +5,7 @@
 [![ci](https://github.com/go-compressions/lz4c/actions/workflows/ci.yml/badge.svg)](https://github.com/go-compressions/lz4c/actions/workflows/ci.yml)
 ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)
 
-CLI for [`github.com/go-compressions/lz4`](../lz4) — the LZ4 block format, in
+CLI for [`github.com/go-compressions/lz4`](https://github.com/go-compressions/lz4) — the LZ4 block format, in
 pure Go (CGO-free, single static binary).
 
 ## Module
