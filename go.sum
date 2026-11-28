@@ -1,8 +1,8 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6NIQQ7OS05n1F4g=
 github.com/go-compressions/appleoracle v0.3.0 h1:hNdRkdAFDOtbypzcuray4wtER3pWghRFkl/Ygck3r6s=
 github.com/go-compressions/appleoracle v0.3.0/go.mod h1:oKtBkLzNNzAMRv1EpgO0v22V662XXSf0FkhE46j3OtY=
-github.com/go-compressions/lz4 v0.6.0 h1:nk9f/GSikRFIBRNMNi7qGXTVHdhFOBBj2XaSvlCofuc=
-github.com/go-compressions/lz4 v0.6.0/go.mod h1:/SiFQqIBd2i+rm4zVmLUI1PEDYR9mG/iyVtMb6EZHhc=
+github.com/go-compressions/lz4 v0.7.0 h1:N0KE8YTwLxe9pmIX9HyuE0CHkI5Xl7b4t/kjQf9KheI=
+github.com/go-compressions/lz4 v0.7.0/go.mod h1:Gk90OGIAS2CG3XBfHB7YAVE6rKtlBzEP0PAf1UYYk/0=
 github.com/go-simd/matchlen v0.5.0 h1:PNEUL78U0nbp5uUUNYo9O6qEPUrPP8xQLYISh+jIUeo=
 github.com/go-simd/matchlen v0.5.0/go.mod h1:VU2nigACIuhFKuK2ZyWUIlQLLPzkzAxSz6L+VH7aIL8=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
